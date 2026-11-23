@@ -1,8 +1,25 @@
-# Next Auth
+# Next Auth — Backend Learning Project
 
-A small Next.js authentication project demonstrating a custom
-email/password authentication flow with MongoDB, JWTs, protected routes, and
-email verification.
+Part of my Next.js learning journey with the **Chai aur Code** YouTube channel.
+
+I completed the frontend phase in a separate project, and this project is the
+**backend phase**: a custom authentication system built with Next.js API routes,
+MongoDB, JWTs, password hashing, protected routes, and email verification.
+
+This project helped me understand what happens behind a sign-up and login
+screen—from validating credentials to storing secure cookies and verifying
+email addresses.
+
+## What I learned
+
+- Creating backend API routes inside the Next.js App Router
+- Connecting a Next.js application to MongoDB with Mongoose
+- Hashing passwords with `bcryptjs`
+- Signing and verifying JSON Web Tokens
+- Using HTTP-only cookies for authentication
+- Protecting server routes with Next.js proxy/middleware logic
+- Sending verification emails through Nodemailer
+- Organizing database, model, helper, and API logic
 
 ## Features
 
@@ -32,7 +49,7 @@ email verification.
 - A MongoDB database, local or hosted
 - An SMTP account for sending verification emails
 
-## Getting started
+## Run it locally
 
 ### 1. Install dependencies
 
@@ -135,4 +152,16 @@ npm run build
 Deployments can be hosted on [Vercel](https://vercel.com/) or another
 Node.js-compatible platform. Add the environment variables to the hosting
 provider rather than committing them to the project.
+
+## Learning journey
+
+This project represents the backend stage of my Next.js learning journey:
+frontend concepts in one project, backend authentication in this project, and
+full-stack application development in my separate Mystery Message project.
+
+## Acknowledgements
+
+- [Chai aur Code](https://www.youtube.com/@chaiaurcode) for the Next.js learning
+  series that inspired this project
+- The open-source libraries and documentation used throughout this build
 
